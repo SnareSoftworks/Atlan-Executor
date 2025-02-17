@@ -1,58 +1,24 @@
-/* Global Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #121212; /* Dark background */
-    color: #f0f0f0; /* Light text */
-}
-
-/* Header */
-header {
-    background-color: #1a1a1a; /* Darker shade for the header */
-    color: #e74c3c; /* Red color for text */
+/* Style for Script Hub */
+#script-hub {
+    background-color: #2c2c2c;
     padding: 20px;
-    text-align: center;
-    border-bottom: 2px solid #e74c3c; /* Red bottom border */
-}
-
-/* Section */
-section {
-    padding: 20px;
-    background-color: #2c2c2c; /* Dark background for content sections */
-    margin: 20px;
+    margin-top: 20px;
     border-radius: 8px;
+    color: #f0f0f0;
 }
 
-/* Heading in sections */
-h2 {
-    color: #e74c3c; /* Red color for headings */
+#script-hub h2 {
+    color: #e74c3c;
 }
 
-/* List items */
-ul {
-    list-style-type: none;
-    padding-left: 0;
+#scripts-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-li {
-    font-size: 18px;
-    color: #f0f0f0; /* Light color for list text */
-    margin-bottom: 10px;
-}
-
-/* Footer */
-footer {
-    background-color: #1a1a1a;
-    color: #e74c3c; /* Red color for footer text */
-    padding: 10px;
-    text-align: center;
-    border-top: 2px solid #e74c3c; /* Red top border */
-}
-
-/* Buttons (if added later) */
 button {
-    background-color: #e74c3c; /* Red button background */
+    background-color: #e74c3c;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -63,5 +29,5 @@ button {
 }
 
 button:hover {
-    background-color: #c0392b; /* Darker red on hover */
+    background-color: #c0392b;
 }
