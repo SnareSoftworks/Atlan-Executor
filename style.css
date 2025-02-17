@@ -1,22 +1,39 @@
-/* Style for Script Hub */
-#script-hub {
-    background-color: #2c2c2c;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 8px;
-    color: #f0f0f0;
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text */
 }
 
-#script-hub h2 {
+/* Header */
+header {
+    background-color: #1a1a1a;
     color: #e74c3c;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e74c3c;
 }
 
-#scripts-list {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
+/* Section */
+section {
+    padding: 20px;
+    background-color: #2c2c2c;
+    margin: 20px;
+    border-radius: 8px;
 }
 
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #e74c3c;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #e74c3c;
+}
+
+/* Buttons */
 button {
     background-color: #e74c3c;
     color: #fff;
@@ -30,4 +47,48 @@ button {
 
 button:hover {
     background-color: #c0392b;
+}
+
+/* Links */
+a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Script Hub Styles */
+#script-hub {
+    background-color: #2c2c2c;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+#script-hub h2 {
+    color: #e74c3c;
+}
+
+#scripts-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#scripts-list .script-item {
+    margin-bottom: 10px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#scripts-list .script-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+#scripts-list .script-item p {
+    font-size: 14px;
 }
